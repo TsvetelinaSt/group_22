@@ -1,0 +1,362 @@
+HW 
+Linux terminal (GitBash) commands.
+
+1). Есть папка на диске D/GitBash с ее содержимым:
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush
+$ pwd
+/d/GitBush
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush
+$ ls -la
+total 3420
+drwxr-xr-x 1 Tsvetelina 197121       0 сен  1 12:07  ./
+drwxr-xr-x 1 Tsvetelina 197121       0 авг 31 16:17  ../
+-rw-r--r-- 1 Tsvetelina 197121 3489152 авг 31 16:40  fish-3.3.1.tar.xz
+drwxr-xr-x 1 Tsvetelina 197121       0 авг 31 16:30 'QA automation'/
+drwxr-xr-x 1 Tsvetelina 197121       0 авг 31 16:30  Want/
+
+2) Создать папку: mkdir New_course (название папки):
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush
+$ mkdir New_course
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush
+$ ls -la
+total 3420
+drwxr-xr-x 1 Tsvetelina 197121       0 сен  1 12:10  ./
+drwxr-xr-x 1 Tsvetelina 197121       0 авг 31 16:17  ../
+-rw-r--r-- 1 Tsvetelina 197121 3489152 авг 31 16:40  fish-3.3.1.tar.xz
+drwxr-xr-x 1 Tsvetelina 197121       0 сен  1 12:10  New_course/
+drwxr-xr-x 1 Tsvetelina 197121       0 авг 31 16:30 'QA automation'/
+drwxr-xr-x 1 Tsvetelina 197121       0 авг 31 16:30  Want/
+
+3) Зайти в папку: cd New_course
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush
+$ cd New_course
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course
+$ pw
+/d/GitBush/New_course
+
+4) Создать 3 папки : 
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course
+$ mkdir 1_papka 2_papka 3_papka
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course
+$ ls -la
+total 4
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:52 ./
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:10 ../
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:52 1_papka/
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:52 2_papka/
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:52 3_papka/
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course
+$ pwd
+/d/GitBush/New_course
+
+5) Зайти в любоую папку: cd 3_papka
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course
+$ cd 3_papka
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ pwd
+/d/GitBush/New_course/3_papka
+
+6) Создать 5 файлов (3 txt, 2 json): touch 1_txt_file.txt 2_txt_file.txt 3_txt_file.txt
+                                     touch 1_file.json 2_file.json
+									 
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ touch 1_txt_file.txt 2_txt_file.txt 3_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ ls -la
+total 0
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:59 ./
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:52 ../
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 1_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 2_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 3_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ touch 1_file.json 2_file.json
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ ls -la
+total 0
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:01 ./
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:52 ../
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 13:01 1_file.json
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 1_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 13:01 2_file.json
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 2_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 3_txt_file.txt
+
+7) Создать 3 папки: mkdir Course_1 Course_2 Course_3
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ mkdir Course_1 Course_2 Course_3
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ ls -la
+total 4
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:07 ./
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:52 ../
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 13:01 1_file.json
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 1_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 13:01 2_file.json
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 2_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 3_txt_file.txt
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:07 Course_1/
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:07 Course_2/
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:07 Course_3/
+
+8. Вывести список содержимого папки: ls -la
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ ls -la
+total 4
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:07 ./
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 12:52 ../
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 13:01 1_file.json
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 1_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 13:01 2_file.json
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 2_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 12:59 3_txt_file.txt
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:07 Course_1/
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:07 Course_2/
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 13:07 Course_3/
+
+9) + Открыть любой txt файл: vim 2_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ vim 2_txt_file.txt
+
+10) + написать туда что-нибудь, любой текст: В открывшимся окне нажала I (чтобы была возможность редактировать), 
+написала текст "1 My first homework in gitbush is it."   https://prnt.sc/1qxzb3x
+
+11) + сохранить и выйти: Нажать Esc, затем в нижней части окна написать :wq + Enter.
+
+12) Выйти из папки на уровень выше: cd ..
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ cd ..
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course
+$ pwd
+/d/GitBush/New_course
+
+13) переместить любые 2 файла, которые вы создали, в любую другую папку: 
+
+mv d:/GitBush/New_course/3_papka/1_file.json d/GitBush/New_course/3_papka/Course_1/1_file.json 
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$  mv d:/GitBush/New_course/3_papka/1_file.json d:/GitBush/New_course/3_papka/Course_1/1_file.json
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ ls -la
+total 5
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:36 ./
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 12:52 ../
+-rw-r--r-- 1 Tsvetelina 197121  0 сен  1 12:59 1_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121  0 сен  1 13:01 2_file.json
+-rw-r--r-- 1 Tsvetelina 197121 38 сен  1 13:27 2_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121  0 сен  1 12:59 3_txt_file.txt
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:36 Course_1/
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 13:07 Course_2/
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 13:07 Course_3/
+
+mv d:/GitBush/New_course/3_papka/1_txt_file.txt d:/GitBush/New_course/3_papka/Course_1/1_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ mv d:/GitBush/New_course/3_papka/1_txt_file.txt d:/GitBush/New_course/3_papka/Course_1/1_txt_file.txt                
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ ls -la
+total 5
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:37 ./
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 12:52 ../
+-rw-r--r-- 1 Tsvetelina 197121  0 сен  1 13:01 2_file.json
+-rw-r--r-- 1 Tsvetelina 197121 38 сен  1 13:27 2_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121  0 сен  1 12:59 3_txt_file.txt
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:37 Course_1/
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 13:07 Course_2/
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 13:07 Course_3/
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+Сначала копируем:
+cp d:/GitBush/New_course/3_papka/2_file.json d:/GitBush/New_course/3_papka/Course_2/2_file.json
+Затем копируем: 
+cp d:/GitBush/New_course/3_papka/2_txt_file.txt d:/GitBush/New_course/3_papka/Course_2/2_txt_file.txt
+
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ cp d:/GitBush/New_course/3_papka/2_file.json d:/GitBush/New_course/3_papka/Course_2/2_file.json
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ ls -la
+total 5
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:37 ./
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 12:52 ../
+-rw-r--r-- 1 Tsvetelina 197121  0 сен  1 13:01 2_file.json
+-rw-r--r-- 1 Tsvetelina 197121 38 сен  1 13:27 2_txt_file.txt
+-rw-r--r-- 1 Tsvetelina 197121  0 сен  1 12:59 3_txt_file.txt
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:37 Course_1/
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:53 Course_2/
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 13:07 Course_3/
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ cd Course_2
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka/Course_2
+$ ls -la
+total 4
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 14:53 ./
+drwxr-xr-x 1 Tsvetelina 197121 0 сен  1 14:37 ../
+-rw-r--r-- 1 Tsvetelina 197121 0 сен  1 14:53 2_file.json
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka/Course_2
+$ cp d:/GitBush/New_course/3_papka/2_txt_file.txt d:/GitBush/New_course/3_papka/Course_2/2_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka/Course_2
+$ ls -la
+total 5
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:55 ./
+drwxr-xr-x 1 Tsvetelina 197121  0 сен  1 14:37 ../
+-rw-r--r-- 1 Tsvetelina 197121  0 сен  1 14:53 2_file.json
+-rw-r--r-- 1 Tsvetelina 197121 38 сен  1 14:55 2_txt_file.txt
+
+15) Найти файл по имени: 
+
+
+Поиск в той же папке, в которой лежит файл: find ./ -type f -name "1_txt_file.txt"
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka/Course_1
+$ find ./ -type f -name "1_txt_file.txt"
+./1_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka/Course_1
+$ cd ..
+
+Поиск в папке выше по размещению в директории того же файла: find ./ -type f -name "*1_txt_file*.txt"
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ find ./ -type f -name "*1_txt_file*.txt"
+./Course_1/1_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ cd ..
+
+Поиск того же файла в папке еще выше по размещению в директории: find ./ -type f -name "*1_txt_file*.txt"
+
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course
+$ find ./ -type f -name "*1_txt_file*.txt"
+./3_papka/Course_1/1_txt_file.txt
+
+Поиск из начальной папки GitBash 2 файлов с одинаковым названием: find ./ -type f -name "*2_txt_file*.txt"
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush
+$ find ./ -type f -name "*2_txt_file*.txt"
+./New_course/3_papka/2_txt_file.txt
+./New_course/3_papka/Course_2/2_txt_file.txt
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+
+Найдем слово homework в папке 2_txt_file.txt: grep homework ./*
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ grep homework ./*
+./2_txt_file.txt:1 My first homework in gitbush is it.
+grep: ./Course_1: Is a directory
+grep: ./Course_2: Is a directory
+grep: ./Course_3: Is a directory
+
+17) вывести несколько первых строк из текстового файла https://prnt.sc/1qzbery: grep "[1-4]" 3_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ grep "[1-4]" 3_txt_file.txt
+1. Start work.
+2. Find the file.
+3. Open the file.
+4. Write a text.
+
+18) вывести несколько последних строк из текстового файла https://prnt.sc/1qzbery: grep "[4-7]" 3_txt_file.txt
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ grep "[4-7]" 3_txt_file.txt
+4. Write a text.
+5. Save a text.
+6. Close the file.
+7. Rename the file name.
+
+Еще можно вывести несколько первых строк командой head -n название файла:
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ head -n 3 3_txt_file.txt
+1. Start work.
+2. Find the file.
+3. Open the file.
+
+
+
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает: 
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush/New_course/3_papka
+$ less 4_txt_file.txt
+
+Часть текста внутри файла 4_txt_file.txt:
+https://prnt.sc/1reaxok
+Поиск слова "строки" в файле:
+/строки (вниз по тексту) https://prnt.sc/1rebdo0
+?каталог (вверх по тексту) https://prnt.sc/1rebsm1
+Кнопка стрелка вверх - перемещение построчно вверх по тексту;
+Кнопка стрелка вниз - перемещение построчно вниз по тексту;
+Кнопка влева - перемещение влева по тексту;
+Кнопка вправа - перемещение вправа по тексту;
+PgUp - прокрутка текста вперед на страницу;
+PgDown - прокрутка текста назад на страницу;
+Shift+< - прокрутка в начало файла;
+SHift+> - прокрутка в конец файла;
+h - вызов справки;
+q -выход из less.
+d
+20) вывести дату и время: date
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush
+$ date
+ 6 сен 2021 г. 18:00:45
+
+=========
+
+Задание *
+1) Отправить http запрос на сервер https://api.quarantine.country/api/v1/regions:  curl -k https://api.quarantine.country/api/v1/regions
+
+Tsvetelina@WIN-1VK0R57PCM6 MINGW32 /d/GitBush
+$ curl -k https://api.quarantine.country/api/v1/regions
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   169  100   169    0     0   1408      0 --:--:-- --:--:-- --:--:--  1420<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.21.1</center>
+</body>
+</html>
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:
+
+Скрипт: https://prnt.sc/1rf5fam
+Создались папки: https://prnt.sc/1rf5qbu
+Зашел в одну из папок: https://prnt.sc/1rf6236
+Переместил файлы в папку: https://prnt.sc/1rf6569
+
+
+=====================
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir foldername
+3) Зайти в папку - cd foldername
+
+https://losst.ru/nachnite-izuchat-linux-pryamo-sejchas
+
+albion-discord.tools (https://api.quarantine.country/api/v1/regions)
+Albion Online Discord bot | Albion Discord Tools
+Albion online guild discord tools
