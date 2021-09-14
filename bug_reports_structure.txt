@@ -1,0 +1,15 @@
+1) Summary
+2) Project
+3) Component
+4) Version
+5) Severity
+6) Priority
+7) Status
+8) Author
+9) Assigned To
+10) Окружение
+11) Step to Reproduce
+12) Result
+13) Expected Result
+14) Attachment
+
